@@ -1,0 +1,4 @@
+sample	gene	variationType	copyNumber	MajorTranscriptID	chr	start	end
+T_down_umi	FH	deletion	0.42	NM_000143	chr1	241661107	241683042
+T_down_umi	RICTOR	amplification	4.08	NM_152756	chr5	38942385	39074499
+T_down_umi	ERBB2	amplification	30.4	NM_004448	chr17	37855792	37884317

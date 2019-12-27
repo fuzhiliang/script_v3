@@ -1,0 +1,43 @@
+###准备不同panel对应的阳性参考
+#tissue
+panel655_1=/share/work2/fuzhl4317/script/positive_dataset/655_1
+#plasma       
+panel655=/share/work2/fuzhl4317/script/positive_dataset/655
+panel31=/share/work2/fuzhl4317/script/positive_dataset/31
+#tissue
+panellc_456_3=/share/work2/fuzhl4317/script/positive_dataset/lc_456_3
+
+
+###"31_lc", "31_crc", "lc_456", "lc", "456", "26_3", "85_3", "26", '3', '83', 'lc_456_3', 'ky86', 'snp280', '31', "86", "655", '655_1'
+###加入到每次分析中的测试组样本名
+T_test=$(grep  Silico-st ./QC.xls.new|head -n 1 |cut -f 1)
+N_test=$(grep  Silico-st ./QC_other.xls.new|head -n 1 |cut -f 1)
+
+#T_test=Silico-stTA
+#N_test=Silico-stWA
+#T_test=T_down_umi
+#N_test=N_down_umi
+
+#待完善的参考库
+root=/share/work2/fuzhl4317/script/positive_dataset/
+panel31_lc=$root/31
+panel31_crc=$root/31
+panellc_456=$root/lc_456_3
+panellc=$root/655_1
+panel456=$root/lc_456_3
+panel26_3=$root/655_1
+panel85_3=$root/86
+panel26=$root/655_1
+panel3=$root/655_1
+panel83=$root/86
+panellc_456_3=$root/lc_456_3
+panelky86=$root/86
+panelsnp280=$root/655_1
+panel31=$root/31
+panel86=$root/86
+panel655=$root/655
+panel655_1=$root/655_1
+
+
+
+

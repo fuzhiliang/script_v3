@@ -1,0 +1,2 @@
+sample	gene	transcript	exon	c.hgvs	p.hgvs	Zygosity	significance	Chr	Func
+N_down_umi	RAD50	NM_005732.3	exon7	c.999_1002delTAAA	p.Asn333Lysfs	het	Likely pathogenic	chr5	frameshift deletion

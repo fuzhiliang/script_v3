@@ -1,0 +1,36 @@
+sample	gene	exon	CDSmutation	proteinMutation	ReadDepth_Var/ReadDepth_Total	VarAlleleFrac	type	class	chr	MajorTranscriptID	MutFunc
+T_down_umi	ARID5B	10	c.1955A>T	p.Q652L	935/2991	0.31260448	SNV	somatic	chr10	NM_032199	nonsynonymous SNV
+T_down_umi	ATP6AP1	9	c.1093A>G	p.S365G	400/2010	0.19900498	SNV	somatic	chrX	NM_001183	nonsynonymous SNV
+T_down_umi	BCL11B	4	c.2059C>T	p.R687C	6/162	0.03703704	SNV	somatic	chr14	NM_138576	nonsynonymous SNV
+T_down_umi	BCR	1	c.410C>T	p.A137V	6/176	0.03409091	SNV	somatic	chr22	NM_004327	nonsynonymous SNV
+T_down_umi	CREBBP	2	c.778C>T	p.Q260X	601/1054	0.57020873	SNV	somatic	chr16	NM_004380	stopgain
+T_down_umi	DDR2	6	c.440C>A	p.P147H	301/1269	0.23719464	SNV	somatic	chr1	NM_006182	nonsynonymous SNV
+T_down_umi	EPHB1	7	c.1585G>T	p.D529Y	260/2513	0.103462	SNV	somatic	chr3	NM_004441	nonsynonymous SNV
+T_down_umi	EPHB6	4	c.217G>C	p.E73Q	312/1087	0.28702852	SNV	somatic	chr7	NM_004445	nonsynonymous SNV
+T_down_umi	KMT2A	27	c.8589G>T	p.M2863I	404/1223	0.33033524	SNV	somatic	chr11	NM_001197104	nonsynonymous SNV
+T_down_umi	MAPK1	8	c.1048G>C	p.E350Q	359/2763	0.12993123	SNV	somatic	chr22	NM_002745	nonsynonymous SNV
+T_down_umi	MERTK	5	c.808C>A	p.L270M	278/2367	0.11744825	SNV	somatic	chr2	NM_006343	nonsynonymous SNV
+T_down_umi	MUC16	75	c.42400G>C	p.E14134Q	342/2451	0.13953488	SNV	somatic	chr19	NM_024690	nonsynonymous SNV
+T_down_umi	MYO18A	4	c.1093C>T	p.Q365X	347/2719	0.12762045	SNV	somatic	chr17	NM_078471	stopgain
+T_down_umi	NM_001289936	5	c.28+1G>A	splicing	276/5660	0.04876325	SNV	somatic	chr17	NM_001289936	.
+T_down_umi	NM_001356,NM_001193417,NM_001193416	17	c.1910-1G>A	splicing	330/1229	0.26851098	SNV	somatic	chrX	NM_001356	.
+T_down_umi	NM_002227	19	c.2555-1G>C	splicing	496/1920	0.25833333	SNV	somatic	chr1	NM_002227	.
+T_down_umi	NOTCH1	12	c.1918A>T	p.I640F	68/920	0.07391304	SNV	somatic	chr9	NM_017617	nonsynonymous SNV
+T_down_umi	NSD1	20	c.6082G>A	p.E2028K	312/2765	0.11283906	SNV	somatic	chr5	NM_022455	nonsynonymous SNV
+T_down_umi	PIK3CA	10	c.1633G>A	p.E545K	89/4005	0.02222222	SNV	somatic	chr3	NM_006218	nonsynonymous SNV
+T_down_umi	PIK3R2	13	c.1681A>G	p.N561D	219/2558	0.08561376	SNV	somatic	chr19	NM_005027	nonsynonymous SNV
+T_down_umi	RAF1	17	c.1819G>A	p.E607K	348/2771	0.12558643	SNV	somatic	chr3	NM_002880	nonsynonymous SNV
+T_down_umi	RET	14	c.2396C>A	p.P799Q	1378/3197	0.43102909	SNV	somatic	chr10	NM_020975	nonsynonymous SNV
+T_down_umi	STK11	4	c.487G>A	p.G163S	369/3291	0.11212397	SNV	somatic	chr19	NM_000455	nonsynonymous SNV
+T_down_umi	TMPRSS2	13	c.1551C>G	p.F517L	8/207	0.03864734	SNV	somatic	chr21	NM_001135099	nonsynonymous SNV
+T_down_umi	TP53	5	c.401T>G	p.F134C	418/5377	0.07773852	SNV	somatic	chr17	NM_000546	nonsynonymous SNV
+T_down_umi	TP53	4	c.329G>T	p.R110L	2632/6484	0.40592227	SNV	somatic	chr17	NM_000546	nonsynonymous SNV
+T_down_umi	ARID1B	1	c.360_362delGCA	p.Q131delQ	11/258	0.04263566	Indel	somatic	chr6	NM_020732	nonframeshift deletion
+T_down_umi	ARID1B	1	c.384_386delGCA	p.Q131delQ	15/243	0.0617284	Indel	somatic	chr6	NM_020732	nonframeshift deletion
+T_down_umi	B2M	1	c.43_44delCT	p.L15Ffs	291/2119	0.13732893	Indel	somatic	chr15	NM_004048	frameshift deletion
+T_down_umi	CTNNA1	17	c.2361_2370delCCACCAGCTG	p.C787Xfs	68/1279	0.05316654	Indel	somatic	chr5	NM_001903	frameshift deletion
+T_down_umi	FANCA	38	c.3824_3828+13del18	.	175/998	0.1753507	Indel	somatic	chr16	NM_000135	frameshift deletion
+T_down_umi	NM_005232	13	c.2083+1_2083+24del24	splicing	176/941	0.18703507	Indel	somatic	chr7	NM_005232	.
+T_down_umi	PTCH1	8	c.1068-21_1071del25	.	327/1204	0.27159468	Indel	somatic	chr9	NM_000264	frameshift deletion
+T_down_umi	SOS1	23	c.3960_3961delCA	p.H1320Qfs	448/1785	0.25098039	Indel	somatic	chr2	NM_005633	frameshift deletion
+T_down_umi	TP53	6	c.666_672+14del21	.	595/4726	0.12589928	Indel	somatic	chr17	NM_000546	frameshift deletion

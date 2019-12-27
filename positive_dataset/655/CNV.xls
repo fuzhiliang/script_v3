@@ -1,0 +1,5 @@
+sample	gene	variationType	copyNumber	MajorTranscriptID	chr	start	end
+T_down_umi	FH	deletion	0.44	NM_000143	chr1	241661107	241683042
+T_down_umi	TERT	amplification	3.41	NM_198253	chr5	1253822	1296105
+T_down_umi	IL7R	amplification	3.82	NM_002185	chr5	35857059	35876608
+T_down_umi	RICTOR	amplification	4.23	NM_152756	chr5	38942385	39074499

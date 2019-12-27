@@ -1,0 +1,7 @@
+sample	gene	exon	CDSmutation	proteinMutation	ReadDepth_Var/ReadDepth_Total	VarAlleleFrac	type	class	chr	MajorTranscriptID	MutFunc
+T_down_umi	NM_001289936	5	c.28+1G>A	splicing	276/5660	0.04876325	SNV	somatic	chr17	NM_001289936	.
+T_down_umi	PIK3CA	10	c.1633G>A	p.E545K	89/4005	0.02222222	SNV	somatic	chr3	NM_006218	nonsynonymous SNV
+T_down_umi	RET	14	c.2396C>A	p.P799Q	1378/3197	0.43102909	SNV	somatic	chr10	NM_020975	nonsynonymous SNV
+T_down_umi	TP53	5	c.401T>G	p.F134C	418/5377	0.07773852	SNV	somatic	chr17	NM_000546	nonsynonymous SNV
+T_down_umi	TP53	4	c.329G>T	p.R110L	2632/6484	0.40592227	SNV	somatic	chr17	NM_000546	nonsynonymous SNV
+T_down_umi	TP53	6	c.666_672+14del21	.	595/4726	0.12589928	Indel	somatic	chr17	NM_000546	frameshift deletion

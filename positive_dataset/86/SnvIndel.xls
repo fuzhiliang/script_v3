@@ -1,0 +1,12 @@
+sample	gene	exon	CDSmutation	proteinMutation	ReadDepth_Var/ReadDepth_Total	VarAlleleFrac	type	class	chr	MajorTranscriptID	MutFunc
+T_down_umi	MAPK1	8	c.1048G>C	p.E350Q	359/2763	0.12993123	SNV	somatic	chr22	NM_002745	nonsynonymous SNV
+T_down_umi	NM_001289936	5	c.28+1G>A	splicing	276/5660	0.04876325	SNV	somatic	chr17	NM_001289936	.
+T_down_umi	NM_002227	19	c.2555-1G>C	splicing	496/1920	0.25833333	SNV	somatic	chr1	NM_002227	.
+T_down_umi	PIK3CA	10	c.1633G>A	p.E545K	89/4005	0.02222222	SNV	somatic	chr3	NM_006218	nonsynonymous SNV
+T_down_umi	RAF1	17	c.1819G>A	p.E607K	348/2771	0.12558643	SNV	somatic	chr3	NM_002880	nonsynonymous SNV
+T_down_umi	RET	14	c.2396C>A	p.P799Q	1378/3197	0.43102909	SNV	somatic	chr10	NM_020975	nonsynonymous SNV
+T_down_umi	STK11	4	c.487G>A	p.G163S	369/3291	0.11212397	SNV	somatic	chr19	NM_000455	nonsynonymous SNV
+T_down_umi	TP53	5	c.401T>G	p.F134C	418/5377	0.07773852	SNV	somatic	chr17	NM_000546	nonsynonymous SNV
+T_down_umi	TP53	4	c.329G>T	p.R110L	2632/6484	0.40592227	SNV	somatic	chr17	NM_000546	nonsynonymous SNV
+T_down_umi	PTCH1	8	c.1068-21_1071del25	.	327/1204	0.27159468	Indel	somatic	chr9	NM_000264	frameshift deletion
+T_down_umi	TP53	6	c.666_672+14del21	.	595/4726	0.12589928	Indel	somatic	chr17	NM_000546	frameshift deletion

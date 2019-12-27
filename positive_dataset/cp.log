@@ -1,0 +1,13 @@
+cp /share/work2/fuzhl4317/project/capsmart_654gene/Int_ref_654gene_plasma_v4/test_down0.1_doublereads_plasma_v2/positive_check/test_head/* /share/work2/fuzhl4317/script/positive_dataset/655/
+DATE_F
+cp -r /share/work2/fuzhl4317/project/capsmart_654gene/A00682_B_BHLY5KDSXX_654T_1225/silico_results/positive_check/test_head/  /share/work2/fuzhl4317/script/positive_dataset/
+20191226170042
+cp -r /share/work2/fuzhl4317/project/capsmart_654gene/A00682_B_BHLY5KDSXX_654T_1225/silico_results/positive_check/test_head/  /share/work2/fuzhl4317/script/positive_dataset/$panel655_1
+20191226170834
+cp -r /test_head/  /share/work2/fuzhl4317/script/positive_dataset/31
+20191226170914
+cp -r /test_head/  /share/work2/fuzhl4317/script/positive_dataset/86
+20191226171126
+cp -r /share/work3/liuw4318/capsmart_31gene/silico_analyse/silico_results/positive_check/test_head/  /share/work2/fuzhl4317/script/positive_dataset/31
+20191226171223
+cp -r /share/work3/liuw4318/capsmart_86gene/A00268_A_AHTGFGDSXX_1225_1/silico_results/positive_check/test_head/  /share/work2/fuzhl4317/script/positive_dataset/86

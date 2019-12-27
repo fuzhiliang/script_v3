@@ -1,0 +1,82 @@
+#!/usr/bin/env python
+# #-*- coding:utf-8 -*-
+import sys
+import tempfile
+import os
+import shutil
+from subprocess import Popen, PIPE
+import atexit
+
+if len(sys.argv) < 3:
+    sys.exit('Usage: ' + sys.argv[0] +' threadNumber freebayes parameters')
+p = int(sys.argv[1])
+bed = ""
+bedindex = 0
+for i in range(len(sys.argv)):
+    if sys.argv[i] == "-t":
+        bed = sys.argv[i+1]
+        bedindex = i+1
+if bed == "":
+    sys.exit('This script only work for target based parallel!')
+bedfile = open(bed).readlines()
+bedline = len(bedfile)
+cmd = []
+r = []
+f = []
+bedpath = []
+bedsize = []
+dirpath = tempfile.mkdtemp()
+for i in range(p):
+    bedsize.append(0)
+    bedpath.append(os.path.join(dirpath,str(i) + ".bed"))
+    f.append(open(os.path.join(dirpath,str(i) + ".bed"),"w"))
+    f[i].write("chrM\t1\t2\n") # hack for first line loss bug.
+    if i == 0:
+        r.append(range(0, bedline / p))
+    elif i == p - 1:
+        r.append(range(bedline * i/p,bedline))
+    else:
+        r.append(range(bedline * i/p,bedline * (i+1)/p))
+for i,v in enumerate(bedfile):
+    for index,j in enumerate(r):
+        if i in j:
+            bedsize[index] += int(v.strip().split("\t")[2]) - int(v.strip().split("\t")[1])
+            f[index].write(v)
+
+for i in f:
+    i.close()
+for i in range(p):
+    sys.argv[bedindex] = bedpath[i]
+    cmd.append(sys.argv[2:])
+out = []
+outfile = []
+pids=set()
+vcftmp = []
+
+
+def clean():
+    shutil.rmtree(dirpath)
+atexit.register(clean)
+
+
+for i in range(p):
+    f = open(os.path.join(dirpath,str(i) + ".vcf"),'w+')
+    vcftmp.append(f)
+    process = Popen(' '.join(cmd[i]),stdout=f, shell=True)
+    out.append(process)
+
+
+bedsub = False
+for index,i in enumerate(out):
+    i.wait()
+    vcftmp[index].close
+    for j in open(os.path.join(dirpath,str(index) + ".vcf"),'r'):
+        if j[0] == '#' and index != 0:
+            continue
+        if not bedsub:
+            if j.find(bedpath[0]) != -1:
+                bedsub = True
+                j = j.replace(bedpath[0],bed)
+        outfile.append(j.strip())
+for i in outfile:
+    print i

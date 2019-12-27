@@ -1,0 +1,187 @@
+sample	gene	exon	CDSmutation	proteinMutation	ReadDepth_Var/ReadDepth_Total	VarAlleleFrac	type	class	chr	MajorTranscriptID	MutFunc
+T_down_umi	ABL1	11	c.1960G>A	p.A654T	5/321	0.01557632	SNV	somatic	chr9	NM_005157	nonsynonymous SNV
+T_down_umi	ALK	1	c.619G>A	p.A207T	5/250	0.02	SNV	somatic	chr2	NM_004304	nonsynonymous SNV
+T_down_umi	ALOX12B	5	c.622G>A	p.A208T	6/251	0.02390438	SNV	somatic	chr17	NM_001139	nonsynonymous SNV
+T_down_umi	ARID5B	10	c.1955A>T	p.Q652L	935/2991	0.31260448	SNV	somatic	chr10	NM_032199	nonsynonymous SNV
+T_down_umi	ATM	62	c.8957C>T	p.A2986V	5/430	0.01162791	SNV	somatic	chr11	NM_000051	nonsynonymous SNV
+T_down_umi	ATP6AP1	9	c.1093A>G	p.S365G	400/2010	0.19900498	SNV	somatic	chrX	NM_001183	nonsynonymous SNV
+T_down_umi	AXIN1	2	c.173C>T	p.T58M	7/456	0.01535088	SNV	somatic	chr16	NM_003502	nonsynonymous SNV
+T_down_umi	BCL11B	4	c.2059C>T	p.R687C	6/162	0.03703704	SNV	somatic	chr14	NM_138576	nonsynonymous SNV
+T_down_umi	BCR	1	c.410C>T	p.A137V	6/176	0.03409091	SNV	somatic	chr22	NM_004327	nonsynonymous SNV
+T_down_umi	BRAF	15	c.1780G>A	p.D594N	6/4599	0.00130463	SNV	somatic	chr7	NM_004333	nonsynonymous SNV
+T_down_umi	CALR	1	c.76C>T	p.Q26X	5/221	0.02262443	SNV	somatic	chr19	NM_004343	stopgain
+T_down_umi	CARD11	18	c.2372G>A	p.C791Y	5/391	0.01278772	SNV	somatic	chr7	NM_032415	nonsynonymous SNV
+T_down_umi	CIC	10	c.2569G>A	p.A857T	5/307	0.01628664	SNV	somatic	chr19	NM_015125	nonsynonymous SNV
+T_down_umi	COP1	5	c.695C>T	p.A232V	5/234	0.02136752	SNV	somatic	chr1	NM_001001740	nonsynonymous SNV
+T_down_umi	CREBBP	31	c.7102C>T	p.Q2368X	7/1363	0.00513573	SNV	somatic	chr16	NM_004380	stopgain
+T_down_umi	CREBBP	31	c.6172C>T	p.P2058S	8/993	0.00805639	SNV	somatic	chr16	NM_004380	nonsynonymous SNV
+T_down_umi	CREBBP	31	c.6152C>T	p.P2051L	6/946	0.00634249	SNV	somatic	chr16	NM_004380	nonsynonymous SNV
+T_down_umi	CREBBP	31	c.5573G>A	p.R1858H	8/1080	0.00740741	SNV	somatic	chr16	NM_004380	nonsynonymous SNV
+T_down_umi	CREBBP	31	c.5344G>A	p.A1782T	7/1222	0.00572831	SNV	somatic	chr16	NM_004380	nonsynonymous SNV
+T_down_umi	CREBBP	30	c.5105G>A	p.R1702H	6/1100	0.00545455	SNV	somatic	chr16	NM_004380	nonsynonymous SNV
+T_down_umi	CREBBP	29	c.4826G>A	p.S1609N	7/1353	0.00517369	SNV	somatic	chr16	NM_004380	nonsynonymous SNV
+T_down_umi	CREBBP	29	c.4738G>A	p.G1580S	5/949	0.0052687	SNV	somatic	chr16	NM_004380	nonsynonymous SNV
+T_down_umi	CREBBP	4	c.1118C>T	p.A373V	13/1463	0.00888585	SNV	somatic	chr16	NM_004380	nonsynonymous SNV
+T_down_umi	CREBBP	2	c.778C>T	p.Q260X	601/1054	0.57020873	SNV	somatic	chr16	NM_004380	stopgain
+T_down_umi	CREBBP	2	c.319C>T	p.P107S	9/1391	0.00647017	SNV	somatic	chr16	NM_004380	nonsynonymous SNV
+T_down_umi	CTNNA1	11	c.1501G>A	p.A501T	6/1099	0.00545951	SNV	somatic	chr5	NM_001903	nonsynonymous SNV
+T_down_umi	CTNNA1	15	c.2065G>A	p.A689T	8/1254	0.00637959	SNV	somatic	chr5	NM_001903	nonsynonymous SNV
+T_down_umi	CTNNA1	15	c.2086A>G	p.S696G	24/1311	0.01830664	SNV	somatic	chr5	NM_001903	nonsynonymous SNV
+T_down_umi	CTNNA1	19	c.2513C>T	p.A838V	8/907	0.00882029	SNV	somatic	chr5	NM_001290307	nonsynonymous SNV
+T_down_umi	CTNNB1	6	c.815C>T	p.A272V	5/266	0.01879699	SNV	somatic	chr3	NM_001904	nonsynonymous SNV
+T_down_umi	CUX1	22	c.3513G>A	p.W1171X	5/348	0.01436782	SNV	somatic	chr7	NM_181552	stopgain
+T_down_umi	DDR2	6	c.440C>A	p.P147H	301/1269	0.23719464	SNV	somatic	chr1	NM_006182	nonsynonymous SNV
+T_down_umi	DDR2	7	c.569G>A	p.G190D	9/1413	0.00636943	SNV	somatic	chr1	NM_006182	nonsynonymous SNV
+T_down_umi	DDR2	11	c.1219G>A	p.A407T	6/1126	0.0053286	SNV	somatic	chr1	NM_006182	nonsynonymous SNV
+T_down_umi	DDR2	15	c.2039G>A	p.R680H	11/1722	0.00638792	SNV	somatic	chr1	NM_006182	nonsynonymous SNV
+T_down_umi	DDX3X	5	c.301C>T	p.R101W	5/1000	0.005	SNV	somatic	chrX	NM_001356	nonsynonymous SNV
+T_down_umi	DDX3X	17	c.1910-1G>A	splicing	330/1229	0.26851098	SNV	somatic	chrX	NM_001356	.
+T_down_umi	DNMT3A	10	c.1187C>T	p.A396V	5/300	0.01666667	SNV	somatic	chr2	NM_022552	nonsynonymous SNV
+T_down_umi	EGFR	20	c.2359C>T	p.Q787X	5/505	0.00990099	SNV	somatic	chr7	NM_005228	stopgain
+T_down_umi	EGR1	2	c.979C>T	p.R327W	5/465	0.01075269	SNV	somatic	chr5	NM_001964	nonsynonymous SNV
+T_down_umi	EP400	27	c.5267G>A	p.R1756H	5/360	0.01388889	SNV	somatic	chr12	NM_015409	nonsynonymous SNV
+T_down_umi	EP400	40	c.7310G>A	p.G2437D	5/336	0.01488095	SNV	somatic	chr12	NM_015409	nonsynonymous SNV
+T_down_umi	EPHA1	17	c.2713C>T	p.P905S	8/963	0.00830737	SNV	somatic	chr7	NM_005232	nonsynonymous SNV
+T_down_umi	EPHA1	12	c.2071G>A	p.V691I	6/1093	0.00548948	SNV	somatic	chr7	NM_005232	nonsynonymous SNV
+T_down_umi	EPHA1	9	c.1675G>A	p.A559T	7/1289	0.00543057	SNV	somatic	chr7	NM_005232	nonsynonymous SNV
+T_down_umi	EPHA1	6	c.1190G>A	p.R397Q	8/1407	0.00568586	SNV	somatic	chr7	NM_005232	nonsynonymous SNV
+T_down_umi	EPHA1	6	c.1171C>T	p.H391Y	10/1337	0.00747943	SNV	somatic	chr7	NM_005232	nonsynonymous SNV
+T_down_umi	EPHA2	5	c.1150C>T	p.R384C	5/278	0.01798561	SNV	somatic	chr1	NM_004431	nonsynonymous SNV
+T_down_umi	EPHB1	7	c.1585G>T	p.D529Y	260/2513	0.103462	SNV	somatic	chr3	NM_004441	nonsynonymous SNV
+T_down_umi	EPHB6	4	c.217G>C	p.E73Q	312/1087	0.28702852	SNV	somatic	chr7	NM_004445	nonsynonymous SNV
+T_down_umi	EPHB6	4	c.748G>A	p.A250T	6/1186	0.00505902	SNV	somatic	chr7	NM_004445	nonsynonymous SNV
+T_down_umi	EPHB6	13	c.1702C>T	p.R568W	8/1181	0.00677392	SNV	somatic	chr7	NM_001280795	nonsynonymous SNV
+T_down_umi	EPHB6	14	c.1832C>T	p.A611V	11/1391	0.00790798	SNV	somatic	chr7	NM_001280795	nonsynonymous SNV
+T_down_umi	EPPK1	2	c.1006C>T	p.R336W	5/336	0.01488095	SNV	somatic	chr8	NM_031308	nonsynonymous SNV
+T_down_umi	ERCC1	3	c.220G>A	p.A74T	5/308	0.01623377	SNV	somatic	chr19	NM_001983	nonsynonymous SNV
+T_down_umi	FANCA	39	c.3910G>A	p.A1304T	7/1122	0.00623886	SNV	somatic	chr16	NM_000135	nonsynonymous SNV
+T_down_umi	FANCA	26	c.2498G>A	p.C833Y	5/807	0.00619579	SNV	somatic	chr16	NM_000135	nonsynonymous SNV
+T_down_umi	FANCA	15	c.1444C>T	p.P482S	6/1082	0.00554529	SNV	somatic	chr16	NM_000135	nonsynonymous SNV
+T_down_umi	FANCA	14	c.1313C>T	p.A438V	7/1041	0.0067243	SNV	somatic	chr16	NM_000135	nonsynonymous SNV
+T_down_umi	FANCA	11	c.995C>A	p.P332H	6/1144	0.00524476	SNV	somatic	chr16	NM_000135	nonsynonymous SNV
+T_down_umi	FANCA	10	c.838G>A	p.A280T	6/1123	0.00534283	SNV	somatic	chr16	NM_000135	nonsynonymous SNV
+T_down_umi	FGFR2	13	c.1853C>T	p.A618V	6/291	0.02061856	SNV	somatic	chr10	NM_000141	nonsynonymous SNV
+T_down_umi	FLT4	3	c.356G>A	p.R119H	5/211	0.02369668	SNV	somatic	chr5	NM_182925	nonsynonymous SNV
+T_down_umi	FOXA2	3	c.511G>A	p.A171T	6/352	0.01704545	SNV	somatic	chr20	NM_153675	nonsynonymous SNV
+T_down_umi	GNB1	10	c.983C>T	p.A328V	6/292	0.02054795	SNV	somatic	chr1	NM_001282539	nonsynonymous SNV
+T_down_umi	HDAC4	12	c.1336G>A	p.A446T	5/217	0.02304147	SNV	somatic	chr2	NM_006037	nonsynonymous SNV
+T_down_umi	IRF1	6	c.485G>A	p.S162N	7/378	0.01851852	SNV	somatic	chr5	NM_002198	nonsynonymous SNV
+T_down_umi	ITK	3	c.302G>A	p.R101H	6/282	0.0212766	SNV	somatic	chr5	NM_005546	nonsynonymous SNV
+T_down_umi	ITK	17	c.1828C>T	p.R610C	5/200	0.025	SNV	somatic	chr5	NM_005546	nonsynonymous SNV
+T_down_umi	JAK1	19	c.2555-1G>C	splicing	496/1920	0.25833333	SNV	somatic	chr1	NM_002227	.
+T_down_umi	JAK1	11	c.1465C>T	p.Q489X	6/1113	0.00539084	SNV	somatic	chr1	NM_002227	stopgain
+T_down_umi	JAK3	8	c.988G>A	p.A330T	5/273	0.01831502	SNV	somatic	chr19	NM_000215	nonsynonymous SNV
+T_down_umi	KMT2A	2	c.478C>T	p.R160X	6/773	0.00776197	SNV	somatic	chr11	NM_001197104	stopgain
+T_down_umi	KMT2A	3	c.901C>T	p.R301X	7/1021	0.00685602	SNV	somatic	chr11	NM_001197104	stopgain
+T_down_umi	KMT2A	3	c.2070G>A	p.M690I	8/1052	0.00760456	SNV	somatic	chr11	NM_001197104	nonsynonymous SNV
+T_down_umi	KMT2A	3	c.2174G>A	p.G725E	6/1149	0.00522193	SNV	somatic	chr11	NM_001197104	nonsynonymous SNV
+T_down_umi	KMT2A	20	c.5659G>A	p.A1887T	7/834	0.00839329	SNV	somatic	chr11	NM_001197104	nonsynonymous SNV
+T_down_umi	KMT2A	25	c.6250C>T	p.P2084S	6/914	0.00656455	SNV	somatic	chr11	NM_001197104	nonsynonymous SNV
+T_down_umi	KMT2A	27	c.8204C>T	p.A2735V	6/1133	0.00529568	SNV	somatic	chr11	NM_001197104	nonsynonymous SNV
+T_down_umi	KMT2A	27	c.8589G>T	p.M2863I	404/1223	0.33033524	SNV	somatic	chr11	NM_001197104	nonsynonymous SNV
+T_down_umi	KMT2A	27	c.10316G>A	p.G3439D	7/1175	0.00595745	SNV	somatic	chr11	NM_001197104	nonsynonymous SNV
+T_down_umi	KMT2C	8	c.1064A>G	p.D355G	6/612	0.00980392	SNV	somatic	chr7	NM_170606	nonsynonymous SNV
+T_down_umi	KMT2D	39	c.10753C>T	p.Q3585X	6/333	0.01801802	SNV	somatic	chr12	NM_003482	stopgain
+T_down_umi	KMT2D	31	c.6797G>A	p.G2266D	6/401	0.01496259	SNV	somatic	chr12	NM_003482	nonsynonymous SNV
+T_down_umi	LRRK2	29	c.4093C>T	p.Q1365X	6/260	0.02307692	SNV	somatic	chr12	NM_198578	stopgain
+T_down_umi	MAPK1	8	c.1048G>C	p.E350Q	359/2763	0.12993123	SNV	somatic	chr22	NM_002745	nonsynonymous SNV
+T_down_umi	MAPK8IP1	8	c.1763C>T	p.A588V	5/266	0.01879699	SNV	somatic	chr11	NM_005456	nonsynonymous SNV
+T_down_umi	MERTK	5	c.808C>A	p.L270M	278/2367	0.11744825	SNV	somatic	chr2	NM_006343	nonsynonymous SNV
+T_down_umi	MITF	1	c.8C>T	p.A3V	5/282	0.0177305	SNV	somatic	chr3	NM_198177	nonsynonymous SNV
+T_down_umi	MTOR	13	c.2095G>A	p.A699T	5/248	0.02016129	SNV	somatic	chr1	NM_004958	nonsynonymous SNV
+T_down_umi	MUC16	75	c.42400G>C	p.E14134Q	342/2451	0.13953488	SNV	somatic	chr19	NM_024690	nonsynonymous SNV
+T_down_umi	MYC	2	c.509C>T	p.A170V	5/386	0.01295337	SNV	somatic	chr8	NM_002467	nonsynonymous SNV
+T_down_umi	MYCL	2	c.790G>A	p.A264T	5/315	0.01587302	SNV	somatic	chr1	NM_001033081	nonsynonymous SNV
+T_down_umi	MYO18A	4	c.1093C>T	p.Q365X	347/2719	0.12762045	SNV	somatic	chr17	NM_078471	stopgain
+T_down_umi	NOTCH1	34	c.6392G>A	p.G2131D	7/1076	0.00650558	SNV	somatic	chr9	NM_017617	nonsynonymous SNV
+T_down_umi	NOTCH1	34	c.6359G>A	p.R2120H	6/1050	0.00571429	SNV	somatic	chr9	NM_017617	nonsynonymous SNV
+T_down_umi	NOTCH1	32	c.5976G>A	p.M1992I	7/762	0.00918635	SNV	somatic	chr9	NM_017617	nonsynonymous SNV
+T_down_umi	NOTCH1	20	c.3314C>T	p.A1105V	7/714	0.00980392	SNV	somatic	chr9	NM_017617	nonsynonymous SNV
+T_down_umi	NOTCH1	19	c.3158G>A	p.G1053D	6/959	0.00625652	SNV	somatic	chr9	NM_017617	nonsynonymous SNV
+T_down_umi	NOTCH1	12	c.1958G>A	p.G653D	6/894	0.00671141	SNV	somatic	chr9	NM_017617	nonsynonymous SNV
+T_down_umi	NOTCH1	12	c.1918A>T	p.I640F	68/920	0.07391304	SNV	somatic	chr9	NM_017617	nonsynonymous SNV
+T_down_umi	NOTCH1	6	c.1049G>A	p.C350Y	6/778	0.00771208	SNV	somatic	chr9	NM_017617	nonsynonymous SNV
+T_down_umi	NOTCH1	4	c.701G>A	p.R234H	5/854	0.0058548	SNV	somatic	chr9	NM_017617	nonsynonymous SNV
+T_down_umi	NOTCH1	2	c.67C>T	p.R23X	7/1019	0.00686948	SNV	somatic	chr9	NM_017617	stopgain
+T_down_umi	NOTCH3	30	c.5651C>T	p.A1884V	6/244	0.02459016	SNV	somatic	chr19	NM_000435	nonsynonymous SNV
+T_down_umi	NOTCH3	10	c.1508C>T	p.T503M	6/327	0.01834862	SNV	somatic	chr19	NM_000435	nonsynonymous SNV
+T_down_umi	NOTCH4	17	c.2564G>A	p.R855H	5/249	0.02008032	SNV	somatic	chr6	NM_004557	nonsynonymous SNV
+T_down_umi	NRAS	4	c.436G>A	p.A146T	4/291	0.0137457	SNV	somatic	chr1	NM_002524	nonsynonymous SNV
+T_down_umi	NSD1	20	c.6082G>A	p.E2028K	312/2765	0.11283906	SNV	somatic	chr5	NM_022455	nonsynonymous SNV
+T_down_umi	NTRK2	21	c.2419C>T	p.Q807X	5/191	0.02617801	SNV	somatic	chr9	NM_006180	stopgain
+T_down_umi	PIK3C2G	12	c.1697C>T	p.A566V	5/216	0.02314815	SNV	somatic	chr12	NM_004570	nonsynonymous SNV
+T_down_umi	PIK3CA	10	c.1624G>A	p.E542K	29/4041	0.00717644	SNV	somatic	chr3	NM_006218	nonsynonymous SNV
+T_down_umi	PIK3CA	10	c.1633G>A	p.E545K	89/4005	0.02222222	SNV	somatic	chr3	NM_006218	nonsynonymous SNV
+T_down_umi	PIK3R1	15	c.1931G>A	p.G644D	6/228	0.02631579	SNV	somatic	chr5	NM_181523	nonsynonymous SNV
+T_down_umi	PIK3R2	13	c.1681A>G	p.N561D	219/2558	0.08561376	SNV	somatic	chr19	NM_005027	nonsynonymous SNV
+T_down_umi	POLD1	14	c.1692G>A	p.M564I	5/244	0.0204918	SNV	somatic	chr19	NM_002691	nonsynonymous SNV
+T_down_umi	PTCH1	16	c.2665C>T	p.Q889X	9/1763	0.00510493	SNV	somatic	chr9	NM_000264	stopgain
+T_down_umi	PTCH1	5	c.716C>T	p.A239V	12/1645	0.00729483	SNV	somatic	chr9	NM_000264	nonsynonymous SNV
+T_down_umi	PTEN	2	c.377C>T	p.A126V	3/366	0.00819672	SNV	somatic	chr10	NM_001304717	nonsynonymous SNV
+T_down_umi	PTPRS	24	c.3820C>T	p.R1274W	6/241	0.02489627	SNV	somatic	chr19	NM_130853	nonsynonymous SNV
+T_down_umi	RAF1	17	c.1819G>A	p.E607K	348/2771	0.12558643	SNV	somatic	chr3	NM_002880	nonsynonymous SNV
+T_down_umi	RARA	7	c.908G>A	p.G303D	6/258	0.02325581	SNV	somatic	chr17	NM_000964	nonsynonymous SNV
+T_down_umi	RET	10	c.1826G>A	p.C609Y	10/4199	0.00238152	SNV	somatic	chr10	NM_020975	nonsynonymous SNV
+T_down_umi	RET	14	c.2396C>A	p.P799Q	1378/3197	0.43102909	SNV	somatic	chr10	NM_020975	nonsynonymous SNV
+T_down_umi	RET	14	c.2410G>A	p.V804M	7/3456	0.00202546	SNV	somatic	chr10	NM_020975	nonsynonymous SNV
+T_down_umi	ROBO1	10	c.1283G>A	p.C428Y	5/196	0.0255102	SNV	somatic	chr3	NM_002941	nonsynonymous SNV
+T_down_umi	RPA1	12	c.1234C>T	p.R412C	6/214	0.02803738	SNV	somatic	chr17	NM_002945	nonsynonymous SNV
+T_down_umi	RPS6KB1	14	c.1327G>A	p.A443T	5/305	0.01639344	SNV	somatic	chr17	NM_001272042	nonsynonymous SNV
+T_down_umi	SDHA	13	c.1772C>T	p.A591V	6/266	0.02255639	SNV	somatic	chr5	NM_004168	nonsynonymous SNV
+T_down_umi	SLX4	12	c.2637G>A	p.W879X	5/413	0.01210654	SNV	somatic	chr16	NM_032444	stopgain
+T_down_umi	SMO	2	c.344C>T	p.A115V	5/432	0.01157407	SNV	somatic	chr7	NM_005631	nonsynonymous SNV
+T_down_umi	SOS1	15	c.2405C>T	p.S802L	6/911	0.00658617	SNV	somatic	chr2	NM_005633	nonsynonymous SNV
+T_down_umi	SOS1	13	c.2137C>T	p.R713X	6/805	0.00745342	SNV	somatic	chr2	NM_005633	stopgain
+T_down_umi	SOS1	10	c.1790G>A	p.G597E	6/1152	0.00520833	SNV	somatic	chr2	NM_005633	nonsynonymous SNV
+T_down_umi	SPATA2	3	c.1354C>T	p.P452S	6/358	0.01675978	SNV	somatic	chr20	NM_001135773	nonsynonymous SNV
+T_down_umi	STK11	4	c.487G>A	p.G163S	369/3291	0.11212397	SNV	somatic	chr19	NM_000455	nonsynonymous SNV
+T_down_umi	TCF3	17	c.1804C>T	p.Q602X	5/196	0.0255102	SNV	somatic	chr19	NM_001136139	stopgain
+T_down_umi	TMPRSS2	13	c.1551C>G	p.F517L	8/207	0.03864734	SNV	somatic	chr21	NM_001135099	nonsynonymous SNV
+T_down_umi	TP53	10	c.1009C>T	p.R337C	12/5226	0.00229621	SNV	somatic	chr17	NM_000546	nonsynonymous SNV
+T_down_umi	TP53	7	c.734G>A	p.G245D	18/5628	0.00319829	SNV	somatic	chr17	NM_000546	nonsynonymous SNV
+T_down_umi	TP53	5	c.541C>T	p.R181C	8/6622	0.00120809	SNV	somatic	chr17	NM_000546	nonsynonymous SNV
+T_down_umi	TP53	5	c.404G>A	p.C135Y	9/5478	0.00164294	SNV	somatic	chr17	NM_000546	nonsynonymous SNV
+T_down_umi	TP53	5	c.401T>G	p.F134C	418/5377	0.07773852	SNV	somatic	chr17	NM_000546	nonsynonymous SNV
+T_down_umi	TP53	4	c.329G>T	p.R110L	2632/6484	0.40592227	SNV	somatic	chr17	NM_000546	nonsynonymous SNV
+T_down_umi	TP53BP1	19	c.3923G>A	p.S1308N	5/218	0.02293578	SNV	somatic	chr15	NM_001141980	nonsynonymous SNV
+T_down_umi	TSC1	23	c.3386C>T	p.A1129V	5/404	0.01237624	SNV	somatic	chr9	NM_000368	nonsynonymous SNV
+T_down_umi	TSC2	16	c.1654G>A	p.A552T	6/470	0.01276596	SNV	somatic	chr16	NM_000548	nonsynonymous SNV
+T_down_umi	TYK2	13	c.1898G>A	p.R633H	5/298	0.01677852	SNV	somatic	chr19	NM_003331	nonsynonymous SNV
+T_down_umi	ZFHX3	2	c.205G>A	p.G69R	5/359	0.01392758	SNV	somatic	chr16	NM_006885	nonsynonymous SNV
+T_down_umi	ANKRD11	9	c.2417delA	p.K806Rfs	5/383	0.01305483	Indel	somatic	chr16	NM_013275	frameshift deletion
+T_down_umi	ARID1A	1	c.258_260delCGG	p.G87delG	5/184	0.02717391	Indel	somatic	chr1	NM_006015	nonframeshift deletion
+T_down_umi	ARID1A	12	c.3216delA	p.K1072Nfs	6/340	0.01764706	Indel	somatic	chr1	NM_006015	frameshift deletion
+T_down_umi	ARID1B	1	c.360_362delGCA	p.Q131delQ	11/258	0.04263566	Indel	somatic	chr6	NM_020732	nonframeshift deletion
+T_down_umi	ARID1B	1	c.384_386delGCA	p.Q131delQ	15/243	0.0617284	Indel	somatic	chr6	NM_020732	nonframeshift deletion
+T_down_umi	ARID3A	3	c.485delC	p.P162Qfs	5/406	0.01231527	Indel	somatic	chr19	NM_005224	frameshift deletion
+T_down_umi	B2M	1	c.43_44delCT	p.L15Ffs	291/2119	0.13732893	Indel	somatic	chr15	NM_004048	frameshift deletion
+T_down_umi	CDH1	5	c.602delC	p.P201Lfs	5/421	0.01187648	Indel	somatic	chr16	NM_004360	frameshift deletion
+T_down_umi	CIITA	15	c.3037delC	p.Q1013Sfs	5/256	0.01953125	Indel	somatic	chr16	NM_000246	frameshift deletion
+T_down_umi	CTNNA1	17	c.2361_2370delCCACCAGCTG	p.C787Xfs	68/1279	0.05316654	Indel	somatic	chr5	NM_001903	frameshift deletion
+T_down_umi	EPHA1	13	c.2083+1_2083+24del24	splicing	176/941	0.18703507	Indel	somatic	chr7	NM_005232	.
+T_down_umi	ERBB2	23	c.2835delC	p.I946Sfs	5/388	0.0128866	Indel	somatic	chr17	NM_004448	frameshift deletion
+T_down_umi	ERBB3	11	c.1237delT	p.S413Pfs	5/423	0.01182033	Indel	somatic	chr12	NM_001982	frameshift deletion
+T_down_umi	EWSR1	5	c.250delC	p.Q84Rfs	5/333	0.01501502	Indel	somatic	chr22	NM_005243	frameshift deletion
+T_down_umi	FANCA	38	c.3824_3828+13del18	.	175/998	0.1753507	Indel	somatic	chr16	NM_000135	frameshift deletion
+T_down_umi	FBXW7	1	c.136delT	p.C46Vfs	5/198	0.02525253	Indel	somatic	chr4	NM_001013415	frameshift deletion
+T_down_umi	FGFR3	3	c.197delG	p.G66Vfs	5/436	0.01146789	Indel	somatic	chr4	NM_000142	frameshift deletion
+T_down_umi	FLT4	8	c.1088delC	p.P363Rfs	7/243	0.02880658	Indel	somatic	chr5	NM_182925	frameshift deletion
+T_down_umi	GATA2	3	c.512delT	p.F171Sfs	5/358	0.01396648	Indel	somatic	chr3	NM_032638	frameshift deletion
+T_down_umi	IRS2	1	c.2099_2104delCCGCCG	p.A700_A701delAA	5/278	0.01798561	Indel	somatic	chr13	NM_003749	nonframeshift deletion
+T_down_umi	KMT2D	39	c.11714_11716delAGC	p.Q3905delQ	9/401	0.02244389	Indel	somatic	chr12	NM_003482	nonframeshift deletion
+T_down_umi	KMT2D	38	c.10653delA	p.A3552Lfs	5/283	0.01766784	Indel	somatic	chr12	NM_003482	frameshift deletion
+T_down_umi	LYN	8	c.754delA	p.R252Gfs	5/301	0.0166113	Indel	somatic	chr8	NM_002350	frameshift deletion
+T_down_umi	NOTCH1	25	c.4325delC	p.P1442Rfs	16/1189	0.01345669	Indel	somatic	chr9	NM_017617	frameshift deletion
+T_down_umi	PARP1	10	c.1519delA	p.S507Afs	6/312	0.01923077	Indel	somatic	chr1	NM_001618	frameshift deletion
+T_down_umi	PAX8	9	c.989delT	p.L330Wfs	5/306	0.01633987	Indel	somatic	chr2	NM_003466	frameshift deletion
+T_down_umi	PIK3C2B	14	c.2147delC	p.P716Hfs	6/342	0.01754386	Indel	somatic	chr1	NM_002646	frameshift deletion
+T_down_umi	PIK3C2B	3	c.845delC	p.P282Lfs	5/420	0.01190476	Indel	somatic	chr1	NM_002646	frameshift deletion
+T_down_umi	PIK3CB	3	c.478delA	p.I160Sfs	5/318	0.01572327	Indel	somatic	chr3	NM_006219	frameshift deletion
+T_down_umi	PTCH1	8	c.1068-21_1071del25	.	327/1204	0.27159468	Indel	somatic	chr9	NM_000264	frameshift deletion
+T_down_umi	PTPRS	15	c.2527delC	p.Q843Sfs	5/264	0.01893939	Indel	somatic	chr19	NM_130853	frameshift deletion
+T_down_umi	RIT1	2	c.17delT	p.F6Sfs	6/426	0.01408451	Indel	somatic	chr1	NM_001256821	frameshift deletion
+T_down_umi	RNF43	5	c.542delA	p.K181Rfs	5/306	0.01633987	Indel	somatic	chr17	NM_017763	frameshift deletion
+T_down_umi	SOS1	23	c.3960_3961delCA	p.H1320Qfs	448/1785	0.25098039	Indel	somatic	chr2	NM_005633	frameshift deletion
+T_down_umi	TIPARP	2	c.219delT	p.F73Lfs	7/378	0.01851852	Indel	somatic	chr3	NM_001184717	frameshift deletion
+T_down_umi	TP53	6	c.666_672+14del21	.	595/4726	0.12589928	Indel	somatic	chr17	NM_000546	frameshift deletion
+T_down_umi	TP53BP1	12	c.2620delA	p.M874Wfs	5/244	0.0204918	Indel	somatic	chr15	NM_001141980	frameshift deletion
