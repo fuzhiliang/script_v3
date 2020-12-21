@@ -6,16 +6,42 @@
 * context:  highlights clusters of changes in a before/after format.
 * unified:  highlights clusters of changes in an inline format.
 * html:     generates side by side comparison with change highlights.
-
+能对比两个excel
+150个字符自动换行
 """
 
 import sys, os, difflib, argparse
-import smtplib
+import smtplib,time
 from email.mime.text import MIMEText
 from email.header import Header
+import pandas as pd
 #from smtplib import SMTP_SSL
 
 from datetime import datetime, timezone
+
+def Split (excel,ori_tag,outdir):
+
+    sheet_list = pd.read_excel(excel,sheet_name = None, index_col = 0 ,keep_default_na=False,
+                               header = None)
+    sep="\t"
+    suffix=".txt"
+    name=os.path.basename(excel)
+    diff_file=os.path.join(outdir , ori_tag+"_"+name+suffix)
+
+    if os.path.exists(outdir):
+        if os.path.exists(diff_file):
+            os.remove(diff_file)
+    else:
+        os.mkdir(outdir)
+    for num in sheet_list:
+        time.sleep(0.1)
+        list=[[''],[num]]
+        test=pd.DataFrame(list,index= ['','sheet:'] )
+        test.to_csv(diff_file, mode='a',
+                               encoding = 'utf-8',sep = sep,header = False )
+        sheet_list[num].to_csv(diff_file, mode='a',
+                               encoding = 'utf-8',sep = sep,header = False )
+    return diff_file 
 
 def file_mtime(path):
     t = datetime.fromtimestamp(os.stat(path).st_mtime,
@@ -28,7 +54,7 @@ def mail(diff,fromfile,tofile):
     #发件人的邮箱
     sender_mail = 'fuzhl4317@berryoncology.com'
     #收件人邮箱
-    receiver = ["wun3623@berryoncology.com","fuzhl4317@berryoncology.com"]
+    receiver = ["fuzhl4317@berryoncology.com"]
 
     #邮件的正文内容
     #mail_content = "你好，<p>这是使用python登录qq邮箱发送HTML格式邮件的测试：</p><p><a href='http://www.yiibai.com'>易百教程</a></p>"
@@ -71,20 +97,29 @@ def main():
     n = options.lines
     fromfile = options.fromfile
     tofile = options.tofile
+    outdir=os.path.join(os.path.dirname(os.path.abspath(tofile)),"temp")
 
     fromdate = file_mtime(fromfile)
     todate = file_mtime(tofile)
-    with open(fromfile) as ff:
-        fromlines = ff.readlines()
-    with open(tofile) as tf:
-        tolines = tf.readlines()
+    try:
+        with open(fromfile) as ff:
+            fromlines = ff.readlines()
+        with open(tofile) as tf:
+            tolines = tf.readlines()
+    except:
+        fromfile=Split(fromfile,"ori",outdir)
+        tofile=Split(tofile,"tag",outdir)
+        with open(fromfile) as ff:
+            fromlines = ff.readlines()
+        with open(tofile) as tf:
+            tolines = tf.readlines()
 
     if options.u: 
         diff = difflib.unified_diff(fromlines, tolines, fromfile, tofile, fromdate, todate, n=n)
     elif options.n:
         diff = difflib.ndiff(fromlines, tolines)
     elif options.m:
-        diff = difflib.HtmlDiff().make_file(fromlines,tolines,fromfile,tofile,context=options.c,numlines=n)
+        diff = difflib.HtmlDiff(wrapcolumn=150).make_file(fromlines,tolines,fromfile,tofile,context=options.c,numlines=n)
     else:
         diff = difflib.context_diff(fromlines, tolines, fromfile, tofile, fromdate, todate, n=n)
 
@@ -96,3 +131,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
